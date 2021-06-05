@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Latihan Recyclerview</string>
+    <string name="textview">TextView</string>
+    <string name="img">Image</string>
+    <string name="detailheader">Detail Data Pahlawan</string>
+    <string name="button">Share</string>
+    <string name="list">List</string>
+    <string name="cardview">CardView</string>
+    <string name="grid_list">Grid list</string>
+    <string name="gridView">Gridview</string>
+    <string name="body">Body</string>
+    <string name="subject">subject</string>
+    <string name="email2">gueamril@yahoo.com</string>
+    <string name="title">Title</string>
+</resources>
