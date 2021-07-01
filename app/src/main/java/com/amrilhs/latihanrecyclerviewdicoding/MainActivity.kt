@@ -30,12 +30,12 @@ class MainActivity : AppCompatActivity() {
         val listHeroAdapter = ListHeroAdapter(list)
         rvHero.adapter = listHeroAdapter
     }
-    private fun showCardViewPupuk(){
+    private fun showCardViewHero(){
         rvHero.layoutManager=LinearLayoutManager(this)
         val cardViewHeroAdapter = CardViewHeroAdapter(list)
         rvHero.adapter = cardViewHeroAdapter
     }
-    private fun showGridViewPupuk(){
+    private fun showGridViewHero(){
         rvHero.layoutManager = GridLayoutManager(this,2)
         val gridHeroAdapter = GridHeroAdapter(list)
         rvHero.adapter = gridHeroAdapter
@@ -50,11 +50,11 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
 
             R.id.action_cardview -> {
-                showCardViewPupuk()
+                showCardViewHero()
                 supportActionBar?.title = resources.getString(R.string.cardview)
             }
             R.id.action_grid -> {
-                showGridViewPupuk()
+                showGridViewHero()
                 supportActionBar?.title = resources.getString(R.string.gridView)
 
             }
