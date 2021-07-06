@@ -1,5 +1,6 @@
 package com.amrilhs.latihanrecyclerviewdicoding
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -61,6 +62,12 @@ class MainActivity : AppCompatActivity() {
             R.id.action_list ->{
                 showRecyclerViewList()
                 supportActionBar?.title =resources.getString(R.string.app_name)
+            }
+
+            R.id.action_about ->{
+
+                val mIntent=Intent(this@MainActivity,AboutMe::class.java)
+                startActivity(mIntent)
             }
 
         }
